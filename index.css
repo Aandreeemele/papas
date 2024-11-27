@@ -1,0 +1,153 @@
+.estructura{
+    width: 1000px;
+    height: 925px;
+    border: 1px solid black;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(40,1fr );
+}
+
+.pan1{
+    background-color: rgba(236, 156, 50, 0.747);
+    border-radius: 70px 70px 2px 2px;
+
+    grid-column: 6/16;
+    grid-row: 2/6;
+}
+.pan01{
+    background-color: rgba(184, 129, 57, 0.747);
+    border-radius: 0px 0px 15px 15px;
+
+    grid-column: 6/16;
+    grid-row: 6/7;
+}
+.div-queso{
+    background-color: yellow;
+
+    grid-column: 6/16;
+    grid-row: 7/8;
+
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.5));   
+
+}
+.div-tomate{
+    background-color: red;
+
+    grid-column: 7/15;
+    grid-row: 8/10;
+}
+.div-queso1{
+    background-color: yellow;
+
+    grid-column: 6/16;
+    grid-row: 10/11;
+
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.5));   
+}
+.div-queso2{
+    background-color: yellow;
+
+    grid-column: 6/16;
+    grid-row: 11/12;
+
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.5));   
+}
+.div-queso3{
+    background-color: yellow;
+
+    grid-column: 6/16;
+    grid-row: 12/13;
+
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.5));   
+}
+
+.div-cebolla {
+    background-color: blueviolet; 
+    grid-column: 8 / 14;
+    grid-row: 13 / 14;
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    border: 2px solid purple;
+    
+    border-radius: 10px;
+}
+
+.div-cebolla1, .div-cebolla2, .div-cebolla3,
+.div-cebolla4, .div-cebolla5, .div-cebolla6 {
+    background-color: rgb(160, 91, 224);
+    border-radius: 50%; 
+    width: 25px; 
+    height: 25px;
+    margin: -6px; 
+}
+.div-avondiga {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    grid-column: 7/15;
+    grid-row: 15/17;
+}
+
+.div-avondiga1, .div-avondiga2, .div-avondiga3 {
+    width: 120px; 
+    height: 90px;
+    background-color: rgb(139, 69, 19);
+    border-radius: 50%; 
+}
+.div-lechuga{
+    background-color: rgb(59, 131, 59);
+    grid-column: 7/15;
+    grid-row: 18/20;
+    border-radius: 0px 0px 50px 50px;
+}
+.div-lechuga1{
+    background-color: rgb(57, 187, 57);
+    width: 25rem;
+    height: 2rem;
+    border-radius: 0px 0px 60px 56px;
+}
+.div-carne1{
+    background-color: rgb(182, 86, 17); 
+    grid-column: 6/16;
+    grid-row: 20/22;
+    border-radius: 15px;
+}
+.div-carne2{
+    background-color: rgb(182, 86, 17); 
+    grid-column: 6/16;
+    grid-row: 22/24;
+    border-radius: 15px;
+}
+.pan02{
+    grid-column: 6/16;
+    grid-row: 24/25;
+    background-color: rgba(184, 129, 57, 0.747);
+    border-radius:  15px 15px 0px 0px;
+}
+.pan03{
+    background-color: rgba(226, 149, 49, 0.747);
+    border-radius: 2px 2px 70px 70px;
+
+    grid-column: 6/16;
+    grid-row: 25/27;
+}
+.div-plato{
+    grid-column: 5/17;
+    grid-row: 27/29;
+    background-color: rgb(87, 85, 85);
+    border-radius: 2px 2px 50px 50px;
+}
+.div-titulo{
+    grid-column: 5/17;
+    grid-row: 30/34;
+    border: 1px solid black;
+}
+.div-titulo1{
+    grid-column: 6/16;
+    grid-row: 30/33;
+    font-size: 4rem;
+    padding: 12px;
+}
